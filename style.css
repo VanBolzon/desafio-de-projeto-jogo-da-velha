@@ -1,0 +1,37 @@
+:root {
+    --cinza-claro: #EEE;
+}
+
+body {
+    text-align: center;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: var(--cinza-claro);
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: var(--cinza-claro);
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: var(--cinza-claro);
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
